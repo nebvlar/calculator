@@ -30,7 +30,7 @@ body{
     width: 550px;
     height: 400px;
 }
-#calcContainer{
+#calculator{
     width: 450px;
     height: 290px;
     background-color: #f5ebf0;
@@ -39,7 +39,7 @@ body{
     margin-right: 15px;
     font-size: 1.5em;
 }
-#display{
+.calculator-screen{
     background-color: white;
     height: 30px;
     border-top: 2px solid #b37090;
@@ -47,6 +47,10 @@ body{
     border-bottom: 2px solid white;
     border-right: 2px solid white;
     width: 515px;
+    font-family: 'VT323', monospace;
+    font-size: 1em;
+    color: #b37090;
+    text-align: right;
 }
 #calcButtons{
     width: 515px;
@@ -57,7 +61,7 @@ body{
     align-items: flex-start;
 }
 
-.btn{
+button{
     height: 45px;
     width: 105px;
     margin-left: 14px;
@@ -69,18 +73,17 @@ body{
     border-left: 2px solid white;
     border-bottom: 2px solid #b37090;
     border-right: 2px solid #b37090;
-    transition-duration: 0.4s;
+    transition-duration: 0.1s;
 }
 #equals{
     height: 45px;
     width: 234px;
     color: #c581e4;
 }
-#del{
-    color:#c581e4;
-}
 #clear{
     color: #c581e4;
+    height: 45px;
+    width: 234px;
 }
 #decimal{
     color: #6cb5ff;
